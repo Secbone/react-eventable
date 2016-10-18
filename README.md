@@ -10,7 +10,7 @@ npm install react-eventable
 
 ## Usage
 
-```
+```javascript
 import {Component} from "react";
 import eventable from "react-eventable";
 
@@ -31,7 +31,7 @@ class MyComponent extends Component {
 
 use `babel-plugin-transform-decorators-legacy`
 
-```
+```javascript
 // webpack.config.js
 
 ...
