@@ -16,7 +16,13 @@ import eventable from "react-eventable";
 
 @eventable
 class MyComponent extends Component {
-    ...
+    clickHandler() {
+        this.emit("click", {foo: "foo"});
+    }
+
+    componentDidMount() {
+        this.on("click", someMethod);
+    }
 }
 ...
 ```
