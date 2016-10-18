@@ -1,10 +1,10 @@
 "use strict"
 
-import {EventEmitter} from "events";
+const EventEmitter = require("events").EventEmitter;
 
 const emitter = new EventEmitter();
 
-export default function eventable(target) {
+function eventable(target) {
 
     let target_events = {};
 
@@ -30,3 +30,5 @@ export default function eventable(target) {
 
     return target;
 }
+
+module.exports = eventable;
