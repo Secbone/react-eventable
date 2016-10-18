@@ -14,7 +14,7 @@ function eventable(target) {
         emitter.on(type, callback);
     }
 
-    target.prototype.emit = emitter.on;
+    target.prototype.emit = emitter.emit.bind(emitter);
 
     let _componentWillUnmount = target.prototype.componentWillUnmount;
 

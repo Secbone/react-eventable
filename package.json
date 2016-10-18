@@ -1,6 +1,6 @@
 {
   "name": "react-eventable",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "An event decorator for react component",
   "main": "index.js",
   "dependencies": {
