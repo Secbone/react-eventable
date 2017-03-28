@@ -1,5 +1,8 @@
 # react-eventable
 
+[![NPM version][npm-image]][npm-url]
+[![Downloads][downloads-image]][downloads-url]
+
 An event decorator for react component
 
 ## Install
@@ -47,3 +50,8 @@ loaders: [
 ]
 ...
 ```
+
+[npm-image]: https://img.shields.io/npm/v/react-eventable.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/react-eventable
+[downloads-image]: http://img.shields.io/npm/dm/react-eventable.svg?style=flat-square
+[downloads-url]: https://npmjs.org/package/react-eventable
